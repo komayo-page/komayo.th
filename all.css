@@ -233,8 +233,3 @@ q {
   font-family: var(--font-family-dialogue);
   color: var(--color-text-cite);
 }
-
-ruby .translation {
-  color: var(--color-text-subtle);
-  display: block;
-}
