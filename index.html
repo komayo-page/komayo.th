@@ -1,144 +1,285 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="th" dir="ltr" itemscope itemtype="https://schema.org/ShortStory">
   <head>
-    <title>โชงิของโยไค</title>
+    <title>ตำนานผีหมากราชา โกมาโย</title>
 
     <meta charset="UTF-8">
+
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'">
+
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="description" content="ท่ามกลางแสงลึกลับของพระจันทร์เต็มดวง ค้นพบเรื่องราวของโกมาโย โยไกผู้มีเสน่ห์จากนิทานพื้นบ้านของญี่ปุ่น เธอล่อลวงวิญญาณที่หลงหายให้เข้ามาในเกมโองิ ดูดกลืนพลังงานชีวิตของพวกเขาและลงโทษพวกเขาให้ต้องทนทุกข์ทรมานชั่วนิรันดร์ เป็นเรื่องของแรงดึงดูดที่อันตรายถึงชีวิตและความปรารถนาที่ไม่ถูกควบคุม คำเตือนที่เจ็บปวดต่ออันตรายของการล่อลวง">
-    <meta name="keywords" content="เรื่องผี, โกมาโย, obake, โอกิ, โชกิ, yōkai, yūrei">
-    <meta name="robots" content="index, follow">
+    <meta name="description" content="ตำนานเล่าว่าในจังหวัดนครราชสีมา มีปีศาจโกมาโยที่ปรากฏตัวในคืนพระจันทร์เต็มดวง ล่อลวงผู้คนด้วยการชวนเล่นหมากราชา ก่อนจะเปลี่ยนพวกเขาให้กลายเป็นผี">
+    <meta name="keywords" content="โกมาโย,ปีศาจ,ผี,หมากราชา,เรื่องผี,นิทานพื้นบ้านไทย,เรื่องเล่าผี,เกมดั้งเดิม,กิโมโน,การล่อลวงเหนือธรรมชาติ">
+    <meta name="robots" content="index,follow">
     <meta name="author" content="Cyril Veltin">
-    <meta property="og:title" content="โชงิของโยไค">
-    <meta property="og:type" content="book">
+    <meta name="copyright" content="Cyril Veltin 2023">
+
+    <meta property="og:site_name" content="โกมาโย">
+    <meta property="og:locale" content="th_TH">
+    <meta property="og:title" content="ตำนานผีหมากราชา โกมาโย">
+    <meta property="og:description" content="ตำนานเล่าว่าในจังหวัดนครราชสีมา มีปีศาจโกมาโยที่ปรากฏตัวในคืนพระจันทร์เต็มดวง ล่อลวงผู้คนด้วยการชวนเล่นหมากราชา ก่อนจะเปลี่ยนพวกเขาให้กลายเป็นผี">
+    <meta property="og:type" content="book:folklore">
     <meta property="og:url" content="https://th.komayo.page/">
-    <meta property="og:image" content="https://th.komayo.page/img/komayo-1024x1024.webp">
-    <meta property="og:description" content="ท่ามกลางแสงลึกลับของพระจันทร์เต็มดวง ค้นพบเรื่องราวของโกมาโย โยไกผู้มีเสน่ห์จากนิทานพื้นบ้านของญี่ปุ่น เธอล่อลวงวิญญาณที่หลงหายให้เข้ามาในเกมโองิ ดูดกลืนพลังงานชีวิตของพวกเขาและลงโทษพวกเขาให้ต้องทนทุกข์ทรมานชั่วนิรันดร์ เป็นเรื่องของแรงดึงดูดที่อันตรายถึงชีวิตและความปรารถนาที่ไม่ถูกควบคุม คำเตือนที่เจ็บปวดต่ออันตรายของการล่อลวง">
-    <meta itemprop="name" content="โชงิของโยไค">
-    <meta itemprop="description" content="ท่ามกลางแสงลึกลับของพระจันทร์เต็มดวง ค้นพบเรื่องราวของโกมาโย โยไกผู้มีเสน่ห์จากนิทานพื้นบ้านของญี่ปุ่น เธอล่อลวงวิญญาณที่หลงหายให้เข้ามาในเกมโองิ ดูดกลืนพลังงานชีวิตของพวกเขาและลงโทษพวกเขาให้ต้องทนทุกข์ทรมานชั่วนิรันดร์ เป็นเรื่องของแรงดึงดูดที่อันตรายถึงชีวิตและความปรารถนาที่ไม่ถูกควบคุม คำเตือนที่เจ็บปวดต่ออันตรายของการล่อลวง">
-    <meta itemprop="image" content="https://th.komayo.page/img/komayo-1024x1024.webp">
+    <meta property="og:image" content="https://th.komayo.page/img/komayo-ghost-thai-street-food-market-night-bangkok-urban-manga-illustration,w_1024.webp">
+    <meta property="og:image:width" content="1024">
+    <meta property="og:image:height" content="1024">
+    <meta property="og:image:alt" content="หญิงสาวญี่ปุ่นลึกลับในชุดกิโมโนสีน้ำเงินเข้มพร้อมผมยาวพลิ้วไหว ถูกจ้องมองโดยลูกค้าในตลาดกลางคืนกรุงเทพฯ - ภาพประกอบมังงะสีดำและน้ำเงิน">
+    <meta property="og:article:author" content="Cyril Veltin">
+    <meta property="og:article:published_time" content="2023-06-26">
+
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="โชงิของโยไค">
-    <meta name="twitter:description" content="ท่ามกลางแสงลึกลับของพระจันทร์เต็มดวง ค้นพบเรื่องราวของโกมาโย โยไกผู้มีเสน่ห์จากนิทานพื้นบ้านของญี่ปุ่น เธอล่อลวงวิญญาณที่หลงหายให้เข้ามาในเกมโองิ ดูดกลืนพลังงานชีวิตของพวกเขาและลงโทษพวกเขาให้ต้องทนทุกข์ทรมานชั่วนิรันดร์ เป็นเรื่องของแรงดึงดูดที่อันตรายถึงชีวิตและความปรารถนาที่ไม่ถูกควบคุม คำเตือนที่เจ็บปวดต่ออันตรายของการล่อลวง">
-    <meta name="twitter:image" content="https://th.komayo.page/img/komayo-1024x1024.webp">
+    <meta name="twitter:title" content="ตำนานผีหมากราชา โกมาโย">
+    <meta name="twitter:description" content="ตำนานเล่าว่าในจังหวัดนครราชสีมา มีปีศาจโกมาโยที่ปรากฏตัวในคืนพระจันทร์เต็มดวง ล่อลวงผู้คนด้วยการชวนเล่นหมากราชา ก่อนจะเปลี่ยนพวกเขาให้กลายเป็นผี">
+    <meta name="twitter:image" content="https://th.komayo.page/img/komayo-ghost-thai-street-food-market-night-bangkok-urban-manga-illustration,w_1024.webp">
 
-      <link rel="alternate" hreflang="bn" href="https://bn.komayo.page/">
-      <link rel="alternate" hreflang="en" href="https://en.komayo.page/">
-      <link rel="alternate" hreflang="fa" href="https://fa.komayo.page/">
-      <link rel="alternate" hreflang="fr" href="https://fr.komayo.page/">
-      <link rel="alternate" hreflang="gu" href="https://gu.komayo.page/">
-      <link rel="alternate" hreflang="hi" href="https://hi.komayo.page/">
-      <link rel="alternate" hreflang="id" href="https://id.komayo.page/">
-      <link rel="alternate" hreflang="ja" href="https://ja.komayo.page/">
-      <link rel="alternate" hreflang="jv" href="https://jv.komayo.page/">
-      <link rel="alternate" hreflang="kn" href="https://kn.komayo.page/">
-      <link rel="alternate" hreflang="ko" href="https://ko.komayo.page/">
-      <link rel="alternate" hreflang="lo" href="https://lo.komayo.page/">
-      <link rel="alternate" hreflang="ml" href="https://ml.komayo.page/">
-      <link rel="alternate" hreflang="mr" href="https://mr.komayo.page/">
-      <link rel="alternate" hreflang="my" href="https://my.komayo.page/">
-      <link rel="alternate" hreflang="or" href="https://or.komayo.page/">
-      <link rel="alternate" hreflang="pa" href="https://pa.komayo.page/">
-      <link rel="alternate" hreflang="ta" href="https://ta.komayo.page/">
-      <link rel="alternate" hreflang="te" href="https://te.komayo.page/">
-      <link rel="alternate" hreflang="ur" href="https://ur.komayo.page/">
-      <link rel="alternate" hreflang="vi" href="https://vi.komayo.page/">
-      <link rel="alternate" hreflang="zh" href="https://zh.komayo.page/">
+    <link rel="alternate" hreflang="bn" href="https://bn.komayo.page/">
+    <link rel="alternate" hreflang="en" href="https://en.komayo.page/">
+    <link rel="alternate" hreflang="fa" href="https://fa.komayo.page/">
+    <link rel="alternate" hreflang="fr" href="https://fr.komayo.page/">
+    <link rel="alternate" hreflang="gu" href="https://gu.komayo.page/">
+    <link rel="alternate" hreflang="hi" href="https://hi.komayo.page/">
+    <link rel="alternate" hreflang="id" href="https://id.komayo.page/">
+    <link rel="alternate" hreflang="ja" href="https://ja.komayo.page/">
+    <link rel="alternate" hreflang="jv" href="https://jv.komayo.page/">
+    <link rel="alternate" hreflang="kn" href="https://kn.komayo.page/">
+    <link rel="alternate" hreflang="ko" href="https://ko.komayo.page/">
+    <link rel="alternate" hreflang="lo" href="https://lo.komayo.page/">
+    <link rel="alternate" hreflang="ml" href="https://ml.komayo.page/">
+    <link rel="alternate" hreflang="mr" href="https://mr.komayo.page/">
+    <link rel="alternate" hreflang="my" href="https://my.komayo.page/">
+    <link rel="alternate" hreflang="or" href="https://or.komayo.page/">
+    <link rel="alternate" hreflang="pa" href="https://pa.komayo.page/">
+    <link rel="alternate" hreflang="ta" href="https://ta.komayo.page/">
+    <link rel="alternate" hreflang="te" href="https://te.komayo.page/">
+    <link rel="alternate" hreflang="th" href="https://th.komayo.page/">
+    <link rel="alternate" hreflang="ur" href="https://ur.komayo.page/">
+    <link rel="alternate" hreflang="vi" href="https://vi.komayo.page/">
+    <link rel="alternate" hreflang="zh" href="https://zh.komayo.page/">
+
     <link rel="canonical" href="https://th.komayo.page/">
-    <link rel="icon" type="image/svg+xml" sizes="any" href="favicon.svg">
 
-    <style media="screen">
-      @media (prefers-color-scheme: light) {
-        :root {
-          --background-color: white;
-          --color: black;
-          --link-color: #6d071a;
-          --quote-color: #6d071a;
-          --shadow-color: #ccc;
-          --article-title-text-color: #000;
-          --article-title-shadow-color: #ccc;
-        }
-      }
+    <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-title" content="โกมาโย">
+    <link rel="manifest" href="/site.webmanifest">
 
-      @media (prefers-color-scheme: dark) {
-        :root {
-          --background-color: black;
-          --color: white;
-          --link-color: #e37f98;
-          --quote-color: #e37f98;
-          --shadow-color: #58354d;
-          --article-title-text-color: #fff;
-          --article-title-shadow-color: #333;
-        }
-      }
-    </style>
-
-    <link rel="stylesheet" href="css/all.css" media="all">
-    <link rel="stylesheet" href="css/print.css" media="print">
-    <link rel="stylesheet" href="css/screen.css" media="screen">
+    <link href="/all.css" rel="stylesheet">
 
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "ShortStory",
-        "mainEntityOfPage": {
-          "@type": "WebPage",
-          "@id": "https://th.komayo.page/"
+      [
+        {
+          "@context": "https://schema.org",
+          "@type": "ShortStory",
+          "@id": "https://th.komayo.page/",
+          "url": "https://th.komayo.page/",
+          "@language": "th",
+          "hasPart": [
+            {
+              "@type": "Article",
+              "headline": "ตามรอยโกมาโย",
+              "name": "เกี่ยวกับ",
+              "@id": "https://th.komayo.page/kieo-kap/",
+              "url": "https://th.komayo.page/kieo-kap/"
+            },
+            {
+              "@type": "ShortStory",
+              "headline": "เกมหมากราชาครั้งสุดท้าย",
+              "name": "ตำนานเมือง",
+              "@id": "https://th.komayo.page/tamnan-mueang/",
+              "url": "https://th.komayo.page/tamnan-mueang/"
+            },
+            {
+              "@type": "Game",
+              "headline": "เกมของเจ้าหญิง",
+              "name": "เล่น",
+              "@id": "https://th.komayo.page/len/",
+              "url": "https://th.komayo.page/len/"
+            },
+            {
+              "@type": "BookSeries",
+              "headline": "บันทึกแห่งความมืด",
+              "name": "เรื่องภาษา",
+              "@id": "https://th.komayo.page/ruang-phaasa/",
+              "url": "https://th.komayo.page/ruang-phaasa/"
+            }
+          ],
+          "keywords": [
+            "โกมาโย",
+            "ปีศาจ",
+            "ผี",
+            "หมากราชา",
+            "เรื่องผี",
+            "นิทานพื้นบ้านไทย",
+            "เรื่องเล่าผี",
+            "เกมดั้งเดิม",
+            "กิโมโน",
+            "การล่อลวงเหนือธรรมชาติ"
+          ],
+          "timeRequired": "PT4M",
+          "author": {
+            "@type": "Person",
+            "name": "Cyril Veltin"
+          },
+          "copyrightHolder": {
+            "@type": "Person",
+            "name": "Cyril Veltin"
+          },
+          "copyrightYear": "2023",
+          "dateModified": "2023-06-26",
+          "datePublished": "2023-06-26",
+          "description": "ตำนานเล่าว่าในจังหวัดนครราชสีมา มีปีศาจโกมาโยที่ปรากฏตัวในคืนพระจันทร์เต็มดวง ล่อลวงผู้คนด้วยการชวนเล่นหมากราชา ก่อนจะเปลี่ยนพวกเขาให้กลายเป็นผี",
+          "image": "https://th.komayo.page/img/komayo-ghost-thai-street-food-market-night-bangkok-urban-manga-illustration,w_1024.webp",
+          "genre": [
+            "เรื่องผี",
+            "นิทานพื้นบ้านไทย",
+            "นวนิยายแฟนตาซี"
+          ],
+          "inLanguage": "th",
+          "headline": "ตำนานผีหมากราชา โกมาโย",
+          "name": "เรื่องผี",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Sashité",
+            "url": "https://sashite.com/"
+          },
+          "abstract": "เรื่องผีของไทยเกี่ยวกับปีศาจที่ล่อลวงด้วยการเล่นหมากราชา",
+          "accessMode": ["textual", "visual"],
+          "accessModeSufficient": ["textual"],
+          "character": "โกมาโย",
+          "contentLocation": "จังหวัดนครราชสีมา",
+          "isAccessibleForFree": true,
+          "isFamilyFriendly": true,
+          "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "sdDatePublished": "2023-06-26",
+          "sdPublisher": {
+            "@type": "Organization",
+            "name": "Sashité"
+          },
+          "teaches": "ความระมัดระวังและความรอบคอบต่อสิ่งล่อลวงที่ไม่รู้จัก",
+          "temporal": "ปัจจุบัน",
+          "text": "ในจังหวัดนครราชสีมา เมื่อพระจันทร์เต็มดวงทอแสงเงินยวง มีปีศาจญี่ปุ่นที่งดงามปรากฏตัวขึ้น คอยล่อลวงผู้คนที่หลงทาง...",
+          "typicalAgeRange": "16+",
+          "about": "ปีศาจในตำนานพื้นบ้านไทยที่เกี่ยวข้องกับเกมดั้งเดิม",
+          "accessibilityFeature": ["alternativeText", "readingOrder", "structuralNavigation"],
+          "accessibilitySummary": "ข้อความที่เข้าถึงได้พร้อมคำอธิบายภาพและการนำทางที่มีโครงสร้าง",
+          "accountablePerson": {
+            "@type": "Person",
+            "name": "Cyril Veltin"
+          },
+          "alternativeHeadline": "ตำนานปีศาจแห่งหมากราชา",
+          "audience": {
+            "@type": "Audience",
+            "audienceType": "ผู้ที่ชื่นชอบนิทานพื้นบ้านไทย"
+          },
+          "educationalLevel": "ทั่วไป",
+          "educationalUse": "ความบันเทิงและวัฒนธรรม",
+          "fileFormat": "text/html",
+          "interactivityType": "expositive",
+          "learningResourceType": "เรื่องเล่า",
+          "pattern": "เรื่องผีไทยแบบดั้งเดิม",
+          "sourceOrganization": {
+            "@type": "Organization",
+            "name": "Sashité",
+            "url": "https://sashite.com/"
+          },
+          "spatialCoverage": {
+            "@type": "Place",
+            "name": "จังหวัดนครราชสีมา"
+          },
+          "thumbnailUrl": "https://th.komayo.page/img/komayo-ghost-thai-street-food-market-night-bangkok-urban-manga-illustration,w_200.webp",
+          "version": "1.0"
         },
-        "publisher": {
-          "@type": "Organization",
-          "name": "Sashité",
-          "url": "https://sashite.com/"
-        },
-        "author": {
-          "@type": "Person",
-          "name": "Cyril Veltin"
-        },
-        "inLanguage": "th",
-        "headline": "โชงิของโยไค",
-        "description": "ท่ามกลางแสงลึกลับของพระจันทร์เต็มดวง ค้นพบเรื่องราวของโกมาโย โยไกผู้มีเสน่ห์จากนิทานพื้นบ้านของญี่ปุ่น เธอล่อลวงวิญญาณที่หลงหายให้เข้ามาในเกมโองิ ดูดกลืนพลังงานชีวิตของพวกเขาและลงโทษพวกเขาให้ต้องทนทุกข์ทรมานชั่วนิรันดร์ เป็นเรื่องของแรงดึงดูดที่อันตรายถึงชีวิตและความปรารถนาที่ไม่ถูกควบคุม คำเตือนที่เจ็บปวดต่ออันตรายของการล่อลวง",
-        "image": "https://th.komayo.page/img/komayo-1024x1024.webp",
-        "datePublished": "2023-06-26",
-        "dateModified": "2023-06-26",
-        "keywords": "เรื่องผี, โกมาโย, obake, โอกิ, โชกิ, yōkai, yūrei"
-      }
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "เรื่องผี",
+              "item": {
+                "@type": "ShortStory",
+                "@id": "https://th.komayo.page/"
+              }
+            }
+          ]
+        }
+      ]
     </script>
   </head>
 
   <body>
     <header>
-      <picture>
-        <source srcset="komayo-light.svg" media="(prefers-color-scheme: light)">
-        <img
-          src="komayo-dark.svg"
-          alt="Komayō"
-          title="โกมาโย"
-          height="22"
-          width="92">
-      </picture>
+      <a href="https://komayo.page/"><img src="/favicon/favicon.svg" alt="โกมาโย" width="512" height="512"></a>
+
+      <nav aria-label="breadcrumb">
+        <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a itemscope itemtype="https://schema.org/ShortStory" itemprop="item" itemid="https://th.komayo.page/" href="/"><span itemprop="name">เรื่องผี</span></a>
+            <meta itemprop="position" content="1">
+          </li>
+        </ol>
+      </nav>
     </header>
 
-    <article>
-  <h1>
-    ตำนานเมือง
-  </h1>
+    <main>
+      <article itemscope itemtype="https://schema.org/ShortStory">
+        <h1 itemprop="headline">ตำนานผีหมากราชา โกมาโย</h1>
 
-  <p>ในชนบทอันห่างไกลของญี่ปุ่น มีตำนานเล่าขานถึงหญิงสาวผู้มีรูปโฉมงดงามน่าพิศวง เธอปรากฏตัวขึ้นภายใต้แสงจันทร์ บางคนเรียกเธอด้วยเสียงกระซิบว่า &quot;โกมาโย&quot; เรื่องราวเกี่ยวกับเธอมีน้อยและเต็มไปด้วยความลึกลับ กล่าวกันว่าเธอเป็นร่างอรชรในชุดกิโมโนสีน้ำเงินเข้ม ปรากฏตัวต่อนักเดินทางผู้โดดเดี่ยว ราวกับถูกดึงดูดด้วยความเหงาของพวกเขา บางคนอ้างว่าเธอท้าทายพวกเขาให้เล่น<a href="game-makruk-khong-kasat/">เกมโบราณ</a>ที่กฎของมันถูกลืมเลือนไปตามกาลเวลา คล้ายกับเกมโชงิ ว่ากันว่าผู้ที่ตอบรับคำท้าของเธอจะถูกพบในวันรุ่งขึ้นพร้อมกับรอยยิ้มแปลกๆ บนใบหน้า และกระดานเกมข้างกาย จิตใจของพวกเขาดูเหมือนจะหลงทางและถูกครอบงำด้วยปริศนาที่ไม่อาจหยั่งรู้ได้</p>
+        <p itemprop="description">
+          เล่ากันว่าในจังหวัดนครราชสีมา เมื่อพระจันทร์เต็มดวงทอแสงเงินยวงลงมาสู่ทุ่งนา มีปีศาจญี่ปุ่นที่มีเสน่ห์น่าหลงใหลปรากฏตัวขึ้น คอยล่อลวงผู้คนที่หลงทางให้เข้ามาใกล้
+        </p>
 
+        <picture>
+          <img
+            itemprop="image"
+            width="1024"
+            height="1024"
+            sizes="(max-width: 1024px) 100vw, 1024px"
+            srcset="
+              img/komayo-ghost-thai-street-food-market-night-bangkok-urban-manga-illustration,w_200.webp 200w,
+              img/komayo-ghost-thai-street-food-market-night-bangkok-urban-manga-illustration,w_288.webp 288w,
+              img/komayo-ghost-thai-street-food-market-night-bangkok-urban-manga-illustration,w_362.webp 362w,
+              img/komayo-ghost-thai-street-food-market-night-bangkok-urban-manga-illustration,w_429.webp 429w,
+              img/komayo-ghost-thai-street-food-market-night-bangkok-urban-manga-illustration,w_486.webp 486w,
+              img/komayo-ghost-thai-street-food-market-night-bangkok-urban-manga-illustration,w_652.webp 652w,
+              img/komayo-ghost-thai-street-food-market-night-bangkok-urban-manga-illustration,w_690.webp 690w,
+              img/komayo-ghost-thai-street-food-market-night-bangkok-urban-manga-illustration,w_725.webp 725w,
+              img/komayo-ghost-thai-street-food-market-night-bangkok-urban-manga-illustration,w_792.webp 792w,
+              img/komayo-ghost-thai-street-food-market-night-bangkok-urban-manga-illustration,w_858.webp 858w,
+              img/komayo-ghost-thai-street-food-market-night-bangkok-urban-manga-illustration,w_925.webp 925w,
+              img/komayo-ghost-thai-street-food-market-night-bangkok-urban-manga-illustration,w_989.webp 989w,
+              img/komayo-ghost-thai-street-food-market-night-bangkok-urban-manga-illustration,w_1024.webp 1024w"
+            src="img/komayo-ghost-thai-street-food-market-night-bangkok-urban-manga-illustration,w_1024.webp"
+            alt="หญิงสาวญี่ปุ่นลึกลับในชุดกิโมโนสีน้ำเงินเข้มพร้อมผมยาวพลิ้วไหว ถูกจ้องมองโดยลูกค้าในตลาดกลางคืนกรุงเทพฯ - ภาพประกอบมังงะสีดำและน้ำเงิน"
+          >
+        </picture>
 
-  <picture>
-    <source type="image/webp" srcset="img/komayo-512x512.webp" media="(max-width: 512px)" height="512" width="512">
-    <source type="image/webp" srcset="img/komayo-1024x1024.webp" media="(min-width: 512px)" height="1024" width="1024">
+        <p>
+          งดงามและลึกลับ สวมกิโมโนสีน้ำเงินเข้มดั่งราตรีอันมืดมิด <a href="/kieo-kap/" title="ตามรอยโกมาโย" itemprop="character">โกมาโย</a> ล่อลวงผู้โชคร้ายด้วยเสน่ห์อันเย้ายวนใจ ด้วยการชวนเล่น <a href="/len/" title="เกมของเจ้าหญิง เกมกระดานดั้งเดิม" itemprop="mentions" itemscope itemtype="https://schema.org/Game"><span itemprop="name">หมากราชา</span></a> รูปแบบโบราณของหมากรุกไทย ผู้ที่ตอบรับคำเชิญจะถูกพาเข้าสู่เขาวงกตแห่งการเดินหมากบนกระดานศักดิ์สิทธิ์ที่ไม่มีทางออก
+        </p>
 
-    <img
-      src="img/komayo-1024x1024.jpg"
-      alt="โกมาโยยิ้มให้กับคู่ต่อสู้ที่เหนื่อยล้าซึ่งผล็อยหลับไปข้างกระดานโองิ"
-      title="เกมโอกิที่ลึกลับของโคมะโย่และการหลับใหลที่หลีกเลี่ยงไม่ได้"
-      height="1024"
-      width="1024">
-  </picture>
-</article>
+        <p>
+          อย่างไรก็ตาม เมื่อเกมดำเนินไปใต้ต้นลีลาวดี ความเหนื่อยล้าอันน่าพิศวงจะค่อยๆ เข้าครอบงำผู้เล่น ทำให้การตัดสินใจพร่าเลือน และแทรกซึมเข้าสู่กระดูก จนในที่สุดก็นำพาพวกเขาสู่การหลับใหลที่ลึกล้ำดั่งสายน้ำในแม่น้ำโขงและไม่มีวันตื่น
+        </p>
 
+        <p>
+          ในระหว่างการหลับใหลอันลึกล้ำนี้เอง ที่โกมาโยเผยธาตุแท้ของความเป็นปีศาจ เธอดูดกลืนพลังชีวิตของพวกเขา ทิ้งไว้เพียงเสียงสะท้อนอันว่างเปล่าของความมีชีวิตชีวาในอดีต วิญญาณของเหยื่อผู้โชคร้ายเหล่านี้กลายเป็นผีตายโหง ต้องคำสาปให้เร่ร่อนไม่มีที่สิ้นสุด หลอกหลอนด้วยความทรงจำอันเย้ายวนของโกมาโย และทรมานด้วยความหวังอันไร้ผลที่จะได้เล่นหมากราชาให้จบ พวกเขาจึงต้องเร่ร่อนชั่วนิรันดร์ในทุ่งนาอันมีหมอกปกคลุม ติดอยู่ในภารกิจที่ไม่มีวันสำเร็จและความฝันที่พังทลาย
+        </p>
 
+        <p>
+          ตำนานนี้มีที่มาจาก<a href="/tamnan-mueang/" title="การพบกันที่ร้านเน็ตในยามดึก" itemprop="isBasedOn" itemscope itemtype="https://schema.org/ShortStory"><span itemprop="name">เรื่องเล่าในวัดเก่าแก่</span></a>และ<a href="/ruang-phaasa/" title="เรื่องราวเพิ่มเติมเกี่ยวกับโกมาโย" itemprop="hasPart" itemscope itemtype="https://schema.org/BookSeries"><span itemprop="name">เรื่องราวลึกลับจากหมู่บ้านห่างไกล</span></a> ซึ่งเมื่อเวลาผ่านไป ได้กลายเป็นคำเตือนถึงเสน่ห์ของสิ่งที่ไม่รู้จักและการไล่ตามความสุขอย่างประมาท เป็นคำเตือนที่ก้องกังวานผ่านกาลเวลา เตือนใจถึงเส้นบางๆ ที่กั้นระหว่างความปรารถนาและความพินาศ
+        </p>
+      </article>
+    </main>
+
+    <footer>
+      <p>
+        &copy; 2023 Cyril Veltin.
+        สงวนลิขสิทธิ์
+      </p>
+    </footer>
   </body>
 </html>
