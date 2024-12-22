@@ -233,3 +233,71 @@ q {
   font-family: var(--font-family-dialogue);
   color: var(--color-text-cite);
 }
+
+:lang(fr) q::before {
+    content: "« ";
+    margin-right: 0.1em;
+}
+
+:lang(fr) q::after {
+    content: " »";
+    margin-left: 0.1em;
+}
+
+:lang(en) q::before {
+    content: "\201C"; /* Unicode for " */
+}
+
+:lang(en) q::after {
+    content: "\201D"; /* Unicode for " */
+}
+
+:lang(th) q::before {
+    content: "\201C"; /* Unicode for " */
+}
+
+:lang(th) q::after {
+    content: "\201D"; /* Unicode for " */
+}
+
+:lang(zh) q::before {
+    content: "「";
+}
+
+:lang(zh) q::after {
+    content: "」";
+}
+
+:lang(ja) q::before {
+    content: "「";
+}
+
+:lang(ja) q::after {
+    content: "」";
+}
+
+:lang(fr) q q::before {
+    content: "‹ ";
+}
+
+:lang(fr) q q::after {
+    content: " ›";
+}
+
+:lang(en) q q::before {
+    content: "\2018"; /* Unicode for ' */
+}
+
+:lang(en) q q::after {
+    content: "\2019"; /* Unicode for ' */
+}
+
+:lang(zh) q q::before,
+:lang(ja) q q::before {
+    content: "『";
+}
+
+:lang(zh) q q::after,
+:lang(ja) q q::after {
+    content: "』";
+}
