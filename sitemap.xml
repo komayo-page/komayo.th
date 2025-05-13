@@ -1,27 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://th.komayo.page/</loc>
     <lastmod>2023-06-26</lastmod>
-  </url>
-  <url>
-    <loc>https://th.komayo.page/ruang-phaasa/</loc>
-    <lastmod>2023-06-26</lastmod>
-  </url>
-  <url>
-    <loc>https://th.komayo.page/ruang-phaasa/kan-phop-kan-thi-bar-richen-si/</loc>
-    <lastmod>2023-06-26</lastmod>
-  </url>
-  <url>
-    <loc>https://th.komayo.page/len/</loc>
-    <lastmod>2023-01-01</lastmod>
+    <image:image>
+      <image:loc>https://th.komayo.page/img/japanese-woman-thai-noodle-stall-night-market-anime-illustration,w_1024.webp</image:loc>
+      <image:title>ตำนานผีหมากราชา โกมาโย</image:title>
+      <image:caption>หญิงสาวในชุดกิโมโนยืนอยู่ที่ร้านก๋วยเตี๋ยวในตลาดกลางคืน</image:caption>
+    </image:image>
+    <xhtml:link rel="alternate" hreflang="bn" href="https://bn.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://en.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://fa.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://fr.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="gu" href="https://gu.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://hi.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://id.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ja.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="jv" href="https://jv.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="kn" href="https://kn.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://ko.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="lo" href="https://lo.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="ml" href="https://ml.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="mr" href="https://mr.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="my" href="https://my.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="or" href="https://or.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="pa" href="https://pa.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="ta" href="https://ta.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="te" href="https://te.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://th.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="ur" href="https://ur.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://vi.komayo.page/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zh.komayo.page/"/>
   </url>
   <url>
     <loc>https://th.komayo.page/kieo-kap/</loc>
     <lastmod>2023-06-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://en.komayo.page/about/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://fr.komayo.page/a-propos/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ja.komayo.page/shoukai/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://th.komayo.page/kieo-kap/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zh.komayo.page/guan-yu/"/>
   </url>
   <url>
     <loc>https://th.komayo.page/tamnan-mueang/</loc>
     <lastmod>2023-06-26</lastmod>
+    <image:image>
+      <image:loc>https://th.komayo.page/tamnan-mueang/img/komayo-ghost-bangkok-netcafe-night-japanese-supernatural-manga-art,w_1024.webp</image:loc>
+      <image:title>เกมกับปีศาจ</image:title>
+      <image:caption>หญิงสาวลึกลับในชุดกิโมโนสีน้ำเงินเข้มกำลังออกจากร้านอินเทอร์เน็ตคาเฟ่ในกรุงเทพฯยามค่ำคืน</image:caption>
+    </image:image>
+    <xhtml:link rel="alternate" hreflang="en" href="https://en.komayo.page/urban-legend/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://fr.komayo.page/legende-urbaine/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ja.komayo.page/toshi-densetsu/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://th.komayo.page/tamnan-mueang/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zh.komayo.page/dushi-chuanshuo/"/>
+  </url>
+  <url>
+    <loc>https://th.komayo.page/len/</loc>
+    <lastmod>2023-01-01</lastmod>
+    <image:image>
+      <image:loc>https://th.komayo.page/len/img/traditional-ogi-shogi-variant-starting-position-japanese-chess-diagram,w_1024.webp</image:loc>
+      <image:title>ตำแหน่งเริ่มต้นของหมากราชา</image:title>
+      <image:caption>ตำแหน่งเริ่มต้นของหมากราชาบนกระดาน 8x8 ช่อง</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://th.komayo.page/len/img/thai-temple-ghost-woman-ogi-players-moonlight-painting,w_1024.webp</image:loc>
+      <image:title>ภาพวาดวัดไทยในยามค่ำคืน</image:title>
+      <image:caption>ภาพวาดวัดไทยในยามค่ำคืน มีชายสองคนนั่งเล่นหมากราชา</image:caption>
+    </image:image>
+    <xhtml:link rel="alternate" hreflang="en" href="https://en.komayo.page/game/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://fr.komayo.page/jeu/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ja.komayo.page/gemu/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://th.komayo.page/len/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zh.komayo.page/youxi/"/>
+  </url>
+  <url>
+    <loc>https://th.komayo.page/ruang-phaasa/</loc>
+    <lastmod>2023-06-26</lastmod>
+    <image:image>
+      <image:loc>https://th.komayo.page/ruang-phaasa/img/mysterious-woman-japanese-subway-platform-salaryman-illustration,w_1024.webp</image:loc>
+      <image:title>บันทึกแห่งความมืด</image:title>
+      <image:caption>ภาพประกอบสไตล์ญี่ปุ่นแบบขาวดำ แสดงหญิงสาวในชุดกิโมโนบนชานชาลารถไฟใต้ดิน</image:caption>
+    </image:image>
+    <xhtml:link rel="alternate" hreflang="en" href="https://en.komayo.page/stories/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://fr.komayo.page/recits/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ja.komayo.page/monogatari/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://th.komayo.page/ruang-phaasa/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zh.komayo.page/gushi/"/>
+  </url>
+  <url>
+    <loc>https://th.komayo.page/ruang-phaasa/kan-phop-kan-thi-bar-richen-si/</loc>
+    <lastmod>2023-06-26</lastmod>
+    <image:image>
+      <image:loc>https://th.komayo.page/ruang-phaasa/kan-phop-kan-thi-bar-richen-si/img/komayo-chronicles-book1-bar-regence-japanese-ghost-story-cover-illustration,w_512.webp</image:loc>
+      <image:title>การพบกันที่บาร์รีเจนซี</image:title>
+      <image:caption>ปกหนังสือ 'การพบกันที่บาร์รีเจนซี' - ฉากในบาร์หมากรุกไทยยามค่ำคืน</image:caption>
+    </image:image>
+    <xhtml:link rel="alternate" hreflang="en" href="https://en.komayo.page/stories/an-evening-at-the-regency-bar/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://fr.komayo.page/recits/rencontre-au-bar-de-la-regence/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://ja.komayo.page/monogatari/deai/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://th.komayo.page/ruang-phaasa/kan-phop-kan-thi-bar-richen-si/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://zh.komayo.page/gushi/sheng-zheng-jiu-ba-xie-hou/"/>
   </url>
 </urlset>
