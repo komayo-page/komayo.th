@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+nav[aria-label="Story navigation"] ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav[aria-label="Story navigation"] li:only-child:has(a[rel="next"]) {
+  margin-left: auto;
+}
+
+nav[aria-label="Story navigation"] a[rel="prev"]::before {
+  content: "← ";
+}
+
+nav[aria-label="Story navigation"] a[rel="next"]::after {
+  content: " →";
+}
